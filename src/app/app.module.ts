@@ -7,10 +7,17 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+import { StrDay } from './pipes/str-day';
+import { StrMonth } from './pipes/str-month';
+import { TwoDigit } from './pipes/two-digit';
+
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    StrDay,
+    StrMonth,
+    TwoDigit,
   ],
   imports: [
     BrowserModule,

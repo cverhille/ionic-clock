@@ -1,14 +1,25 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Horloge
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content text-center [class]="dt.season">
+  <div>
+    <canvas #canvas></canvas>
+    <div>
+      <span class="digit">
+      {{dt.hours | twoDigit}} :
+      {{dt.minutes | twoDigit}} :
+      {{dt.seconds | twoDigit}}
+      </span>
+    </div>
+    <div>{{contentHeight}}</div>
+  </div>
 </ion-content>
+
+<ion-footer text-center>
+  {{dt.wday | strDay }} {{dt.mday}} {{dt.month | strMonth}} {{dt.year}}
+</ion-footer>

@@ -1,3 +1,51 @@
 page-home {
 
+ion-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: xx-large;
+}
+
+.winter {
+  background:  #ffffff url("../assets/imgs/winter.jpg") no-repeat right center;
+  background-size: cover;
+
+  margin-bottom: 15px;
+}
+
+.spring {
+  background:  #ffffff url("../assets/imgs/spring.jpg") no-repeat right center;
+  background-size: cover;
+
+  margin-bottom: 15px;
+}
+
+.summer {
+  background:  #ffffff url("../assets/imgs/summer.jpg") no-repeat right center;
+  background-size: cover;
+
+  margin-bottom: 15px;
+}
+
+.autumn {
+  background:  #ffffff url("../assets/imgs/automne.jpg") no-repeat right center;
+  background-size: cover;
+
+  margin-bottom: 15px;
+}
+
+ion-footer {
+  background-color: #fff;
+}
+
+.digit {
+  font-size: xx-large;
+  font-family: 'courier new';
+  font-weight: bold;
+  background-color: rgba(200,200,200,0.6);
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  vertical-align: middle;
+}
+
 }
